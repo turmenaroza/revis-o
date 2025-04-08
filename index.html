@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Resumo </title>
 </head>
 <body>
@@ -152,6 +153,7 @@
 <h1>JavaScricp</h1>
 <section id="JS">
     <div class="JSS">
+        
         <img id="foto7" src="Cisne Negro.png" alt="o Cisne Negro">
         <h1>Let X Const</h1>
       <h3>Let</h3>
@@ -193,6 +195,65 @@
     </div>
 
 </section>
+
+<section>
+    <div class="carrossel">
+
+   <div class="slideshow-container">
+
+
+       <div class="mySlides fade">
+           <div class="numbertext">1 / 3</div>
+           <img src="imagens/Funcional.PNG">
+           <h2>Programação Funcional
+        </h2>
+        <p> Nela, trata-se funções como cidadãos de primeira classe, o que significa que pode passá-las como argumentos ou retorná-las de outras funções. 
+        </p>
+        <p> Aqui,nesse exemplo, usamos a função `reduce`( permite que você execute uma função de redução) para aplicar a função `somar` a cada elemento do array( estrutura de dados que armazena vários valores em uma única variável), acumulando o resultado. Isso demonstra como podemos escrever um código mais conciso e legível.
+        </p>
+        
+       </div>
+
+       <div class="mySlides fade">
+           <div class="numbertext">2 / 3</div>
+           <img src="imagens/Leg julia.png" style="width:100%">
+           <h2>Programação Orientada a Objeto
+        </h2>
+        <p> Nele se cria objetos que encapsulam dados e comportamentos </p>
+        <p> Nesse exemplo, tem uma classe `Carro` que nos permite criar objetos representando carros específicos.
+        </p>
+        
+       </div>
+
+       <div class="mySlides fade">
+           <div class="numbertext">3 / 3</div>
+           <img src="imagens/shorts.png" style="width:100%">
+           <h2>Paradigma imperativo
+        </h2>
+        <p> Enfoca a descrição passo a passo de como uma tarefa deve ser realizada. Ele instrui o computador a executar ações específicas, uma após a outra.
+        </p>
+        <p> Neste exemplo, está dizendo ao computador como calcular a soma dos números de 0 a 9.
+        </p>
+        
+       </div>
+      
+
+       <a class="prev" onclick="plusSlides(-1)">❮</a>
+       <a class="next" onclick="plusSlides(1)">❯</a>
+
+   </div>
+  
+   <br>
+
+   <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
+   </div>
+</div>
+  </section>
+
+
 
 </main>
 <footer id="creditos">
